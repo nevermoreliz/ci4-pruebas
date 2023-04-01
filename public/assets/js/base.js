@@ -1,6 +1,5 @@
 $(document).ready(function () {
 	$('div.menu-container').on('click', 'a.menu--link', function (event) {
-
 		event.preventDefault();
 		event.stopPropagation();
 
@@ -26,19 +25,17 @@ $(document).ready(function () {
 				$.ajax({
 					url: (url.substring(0, 1) === '/' ? '' : '/') + url,
 					method: "GET",
-					dataType: 'json',
 					success: function (response) {
 						// $("#mi-seccion").html(response.contenido);
 						content.html(response).fadeIn('slow');
 
 						if (response.success) {
 							content.html(response.html).fadeIn('slow');
-							var title = response.title;
-							document.querySelector('title').innerText = title;
+							document.querySelector('title').innerText = response.title;
 						}
 
 					},
-					error: function(xhr, textStatus, errorThrown) {
+					error: function (xhr, textStatus, errorThrown) {
 						console.log(xhr.responseText);
 					}
 				});

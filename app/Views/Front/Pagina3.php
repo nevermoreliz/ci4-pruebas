@@ -2,8 +2,6 @@
 pagina 3
 <?= $this->endSection() ?>
 
-
-    
 <main>
     <div class="container">
         <!-- Title and Top Buttons Start -->
@@ -48,7 +46,8 @@ pagina 3
                                     <p class="heading title mb-1"></p>
                                     <div>
                                         <div>
-                                            <div class="cta-2 text-primary value d-inline-block align-middle sw-4"></div>
+                                            <div class="cta-2 text-primary value d-inline-block align-middle sw-4">
+                                            </div>
                                             <i class="icon d-inline-block align-middle text-primary" data-acorn-size="15"></i>
                                         </div>
                                         <div class="text-small text-muted mb-1 text"></div>
@@ -78,7 +77,8 @@ pagina 3
                                     <p class="heading title"></p>
                                     <div>
                                         <div>
-                                            <div class="cta-2 text-primary value d-inline-block align-middle sw-4"></div>
+                                            <div class="cta-2 text-primary value d-inline-block align-middle sw-4">
+                                            </div>
                                             <i class="icon d-inline-block align-middle text-primary" data-acorn-size="15"></i>
                                         </div>
                                         <div class="text-small text-muted mb-1 text"></div>
@@ -214,7 +214,8 @@ pagina 3
                                         <div class="row g-0 h-100 align-content-center">
                                             <div class="col-12 col-md-7 d-flex flex-column mb-2 mb-md-0 position-static">
                                                 <a href="Pages.Portfolio.Detail.html">Kommissbrot</a>
-                                                <div class="text-small text-muted text-truncate">Icing liquorice olegário jujubes oat cake.</div>
+                                                <div class="text-small text-muted text-truncate">Icing liquorice
+                                                    olegário jujubes oat cake.</div>
                                             </div>
                                             <div class="col-12 col-md-5 d-flex align-items-center justify-content-md-end">
                                                 <button class="btn btn-sm btn-icon btn-icon-start btn-outline-primary ms-1" type="button">
@@ -245,7 +246,8 @@ pagina 3
                                         <div class="row g-0 h-100 align-content-center">
                                             <div class="col-12 col-md-7 d-flex flex-column mb-2 mb-md-0">
                                                 <a href="Pages.Portfolio.Detail.html">Yeast Karavai</a>
-                                                <div class="text-small text-muted text-truncate">Gummi liquorice olegário jujubes cookie.</div>
+                                                <div class="text-small text-muted text-truncate">Gummi liquorice
+                                                    olegário jujubes cookie.</div>
                                             </div>
                                             <div class="col-12 col-md-5 d-flex align-items-center justify-content-md-end">
                                                 <button class="btn btn-sm btn-icon btn-icon-start btn-outline-primary ms-1" type="button">
@@ -275,7 +277,8 @@ pagina 3
                                         <div class="row g-0 h-100 align-content-center">
                                             <div class="col-12 col-md-7 d-flex flex-column mb-2 mb-md-0">
                                                 <a href="Pages.Portfolio.Detail.html">Cholermüs</a>
-                                                <div class="text-small text-muted text-truncate">Marshmallow topping icing liquorice oat cake.</div>
+                                                <div class="text-small text-muted text-truncate">Marshmallow topping
+                                                    icing liquorice oat cake.</div>
                                             </div>
                                             <div class="col-12 col-md-5 d-flex align-items-center justify-content-md-end">
                                                 <button class="btn btn-sm btn-icon btn-icon-start btn-outline-primary ms-1" type="button">
@@ -305,7 +308,8 @@ pagina 3
                                         <div class="row g-0 h-100 align-content-center">
                                             <div class="col-12 col-md-7 d-flex flex-column mb-2 mb-md-0">
                                                 <a href="Pages.Portfolio.Detail.html">Cheesymite Scroll</a>
-                                                <div class="text-small text-muted text-truncate">Tootsie brownie ice cream marshmallow topping.</div>
+                                                <div class="text-small text-muted text-truncate">Tootsie brownie ice
+                                                    cream marshmallow topping.</div>
                                             </div>
                                             <div class="col-12 col-md-5 d-flex align-items-center justify-content-md-end">
                                                 <button class="btn btn-sm btn-icon btn-icon-start btn-outline-primary ms-1" type="button">
@@ -335,7 +339,8 @@ pagina 3
                                         <div class="row g-0 h-100 align-content-center">
                                             <div class="col-12 col-md-7 d-flex flex-column mb-2 mb-md-0">
                                                 <a href="Pages.Portfolio.Detail.html">Bazlama</a>
-                                                <div class="text-small text-muted text-truncate">Tootsie roll cream marshmallow chocolate bar.</div>
+                                                <div class="text-small text-muted text-truncate">Tootsie roll cream
+                                                    marshmallow chocolate bar.</div>
                                             </div>
                                             <div class="col-12 col-md-5 d-flex align-items-center justify-content-md-end">
                                                 <button class="btn btn-sm btn-icon btn-icon-start btn-outline-primary ms-1" type="button">
@@ -365,7 +370,8 @@ pagina 3
                                         <div class="row g-0 h-100 align-content-center">
                                             <div class="col-12 col-md-7 d-flex flex-column mb-2 mb-md-0">
                                                 <a href="Pages.Portfolio.Detail.html">Soda Bread</a>
-                                                <div class="text-small text-muted text-truncate">Marshmallow topping icing liquorice oat cake.</div>
+                                                <div class="text-small text-muted text-truncate">Marshmallow topping
+                                                    icing liquorice oat cake.</div>
                                             </div>
                                             <div class="col-12 col-md-5 d-flex align-items-center justify-content-md-end">
                                                 <button class="btn btn-sm btn-icon btn-icon-start btn-outline-primary ms-1" type="button">
@@ -395,7 +401,8 @@ pagina 3
                                         <div class="row g-0 h-100 align-content-center">
                                             <div class="col-12 col-md-7 d-flex flex-column mb-2 mb-md-0">
                                                 <a href="Pages.Portfolio.Detail.html">Chapati</a>
-                                                <div class="text-small text-muted text-truncate">Tootsie brownie ice cream marshmallow topping.</div>
+                                                <div class="text-small text-muted text-truncate">Tootsie brownie ice
+                                                    cream marshmallow topping.</div>
                                             </div>
                                             <div class="col-12 col-md-5 d-flex align-items-center justify-content-md-end">
                                                 <button class="btn btn-sm btn-icon btn-icon-start btn-outline-primary ms-1" type="button">
@@ -502,7 +509,8 @@ pagina 3
                                 <div class="col">
                                     <div class="card-body d-flex flex-column pt-0 pb-0 ps-3 pe-4 h-100 justify-content-center">
                                         <div class="d-flex flex-column">
-                                            <div class="text-alternate mt-n1 lh-1-25">Category page returned an error</div>
+                                            <div class="text-alternate mt-n1 lh-1-25">Category page returned an error
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -882,7 +890,8 @@ pagina 3
                     <div class="card-body">
                         <div class="cta-3">Do you need help?</div>
                         <div class="mb-3 cta-3 text-primary">Search for documentation!</div>
-                        <div class="text-muted mb-4">Cheesecake chocolate carrot cake pie drops. Brownie ice cream marshmallow topping.</div>
+                        <div class="text-muted mb-4">Cheesecake chocolate carrot cake pie drops. Brownie ice cream
+                            marshmallow topping.</div>
                         <form>
                             <div class="mb-3 filled w-100">
                                 <i data-acorn-icon="form"></i>
@@ -920,7 +929,21 @@ pagina 3
         </div>
     </div>
 
-   
 
-   
 </main>
+
+<script>
+    var archivosJS = [
+        // 'dashboard/icon/acorn-icons-interface.js',
+        // 'dashboard/icon/acorn-icons.js',
+        // 'dashboard/js/vendor/bootstrap.bundle.min.js'
+    ];
+
+    $.each(archivosJS, function(index, archivo) {
+        $.getScript(archivo, function() {
+            console.log('Archivo cargado: ' + archivo);
+        });
+    });
+
+    
+</script>
