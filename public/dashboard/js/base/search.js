@@ -20,7 +20,7 @@ class Search {
       searchResultsId: 'searchPagesResults',
       placeholder: 'Search',
       loading: 'Loading',
-      jsonPath: Helpers.UrlFix('json/search.json'),
+      jsonPath: Helpers.UrlFix('dashboard/json/search.json'),
     };
   }
 

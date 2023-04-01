@@ -62,6 +62,55 @@ use PHPUnit\TextUI\XmlConfiguration\CodeCoverage\Report\Php;
     <?= $this->renderSection('css') ?>
 
     <script src="<?= base_url(); ?>dashboard/js/base/loader.js"></script>
+
+
+    <!-- Vendor Scripts Start -->
+    <!-- <script src="<?= base_url(); ?>dashboard/js/vendor/jquery-3.5.1.min.js"></script> -->
+    <script src="<?= base_url(); ?>dashboard/js/vendor/jquery-3.6.4.min.js"></script>
+    <script src="<?= base_url(); ?>dashboard/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url(); ?>dashboard/js/vendor/OverlayScrollbars.min.js"></script>
+    <script src="<?= base_url(); ?>dashboard/js/vendor/autoComplete.min.js"></script>
+    <script src="<?= base_url(); ?>dashboard/js/vendor/clamp.min.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/icon/acorn-icons.js"></script>
+    <script src="<?= base_url(); ?>dashboard/icon/acorn-icons-interface.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/js/vendor/Chart.bundle.min.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/js/vendor/chartjs-plugin-datalabels.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/js/vendor/chartjs-plugin-rounded-bar.min.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/js/vendor/glide.min.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/js/vendor/intro.min.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/js/vendor/select2.full.min.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/js/vendor/plyr.min.js"></script>
+
+    <!-- Vendor Scripts End -->
+
+    <!-- Template Base Scripts Start -->
+    <script src="<?= base_url(); ?>dashboard/js/base/helpers.js"></script>
+    <script src="<?= base_url(); ?>dashboard/js/base/globals.js"></script>
+    <script src="<?= base_url(); ?>dashboard/js/base/nav.js"></script>
+    <script src="<?= base_url(); ?>dashboard/js/base/search.js"></script>
+    <script src="<?= base_url(); ?>dashboard/js/base/settings.js"></script>
+    <!-- Template Base Scripts End -->
+    <!-- Page Specific Scripts Start -->
+
+    <script src="<?= base_url(); ?>dashboard/js/cs/glide.custom.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/js/cs/charts.extend.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/js/pages/dashboard.default.js"></script>
+
+    <script src="<?= base_url(); ?>dashboard/js/common.js"></script>
+    <script src="<?= base_url(); ?>dashboard/js/scripts.js"></script>
+    <script src="<?= base_url(); ?>assets/js/base.js"></script>
+    <!-- Page Specific Scripts End -->
+    <?= $this->renderSection('js') ?>
 </head>
 
 <body>
@@ -559,52 +608,7 @@ use PHPUnit\TextUI\XmlConfiguration\CodeCoverage\Report\Php;
     <!-- Search Modal End -->
 
 
-    <!-- Vendor Scripts Start -->
-    <script src="<?= base_url(); ?>dashboard/js/vendor/jquery-3.5.1.min.js"></script>
-    <script src="<?= base_url(); ?>dashboard/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url(); ?>dashboard/js/vendor/OverlayScrollbars.min.js"></script>
-    <script src="<?= base_url(); ?>dashboard/js/vendor/autoComplete.min.js"></script>
-    <script src="<?= base_url(); ?>dashboard/js/vendor/clamp.min.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/icon/acorn-icons.js"></script>
-    <script src="<?= base_url(); ?>dashboard/icon/acorn-icons-interface.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/js/vendor/Chart.bundle.min.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/js/vendor/chartjs-plugin-datalabels.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/js/vendor/chartjs-plugin-rounded-bar.min.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/js/vendor/glide.min.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/js/vendor/intro.min.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/js/vendor/select2.full.min.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/js/vendor/plyr.min.js"></script>
-
-    <!-- Vendor Scripts End -->
-
-    <!-- Template Base Scripts Start -->
-    <script src="<?= base_url(); ?>dashboard/js/base/helpers.js"></script>
-    <script src="<?= base_url(); ?>dashboard/js/base/globals.js"></script>
-    <script src="<?= base_url(); ?>dashboard/js/base/nav.js"></script>
-    <script src="<?= base_url(); ?>dashboard/js/base/search.js"></script>
-    <script src="<?= base_url(); ?>dashboard/js/base/settings.js"></script>
-    <!-- Template Base Scripts End -->
-    <!-- Page Specific Scripts Start -->
-
-    <script src="<?= base_url(); ?>dashboard/js/cs/glide.custom.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/js/cs/charts.extend.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/js/pages/dashboard.default.js"></script>
-
-    <script src="<?= base_url(); ?>dashboard/js/common.js"></script>
-    <script src="<?= base_url(); ?>dashboard/js/scripts.js"></script>
-    <script src="<?= base_url(); ?>assets/js/base.js"></script>
-    <!-- Page Specific Scripts End -->
-    <?= $this->renderSection('js') ?>
+    
 
 </body>
 

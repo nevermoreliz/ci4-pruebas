@@ -204,7 +204,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="<?= base_url(route_to('otro')) ;?>" class="menu--link">
+                            <a href="<?= base_url(route_to('tres')) ;?>" class="menu--link">
                                 <span class="label">Analytic</span>
                             </a>
                         </li>

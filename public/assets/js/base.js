@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 		event.preventDefault();
 		event.stopPropagation();
-		
+
 		var content = $('.' + (event.target.getAttribute('data-dest') === null ? 'mi-seccion' : event.target.getAttribute('data-dest')));
 		var url = $(this).attr('href');
 		if (url.substring(0, window.location.origin.length) === window.location.origin) {
@@ -12,7 +12,7 @@ $(document).ready(function () {
 
 
 		if (url !== '' && url !== '/') {
-			alert('clic dentro');
+			// alert('clic dentro');
 
 			try {
 
@@ -21,7 +21,7 @@ $(document).ready(function () {
 				// 	url: (url.substring(0, 1) === '/' ? '' : '/') + url,
 				// }).done(function (resultado) {
 				// 	content.hide(0).html(resultado).fadeIn('slow');
-				// });	
+				// });
 
 				$.ajax({
 					url: (url.substring(0, 1) === '/' ? '' : '/') + url,
@@ -29,7 +29,15 @@ $(document).ready(function () {
 					data: { seccion: "mi-seccion" },
 					success: function (response) {
 						// $("#mi-seccion").html(response.contenido);
-						content.html(response.contenido).fadeIn('slow');
+						content.html(response).fadeIn('slow');
+
+						if (response.success) {
+							content.html(response.html).fadeIn('slow');
+						}
+
+					},
+					error: function(xhr, textStatus, errorThrown) {
+						console.log(xhr.responseText);
 					}
 				});
 

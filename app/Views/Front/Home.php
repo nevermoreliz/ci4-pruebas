@@ -913,8 +913,8 @@ Inicio
             <div class="col-12 col-xl-8">
                 <h2 class="small-title">Video Guide</h2>
                 <div class="card h-100-card sh-md-45 bg-transparent">
-                    <video class="player cover" poster="img/product/large/product-2.webp" id="videoGuide">
-                        <source src="<?= base_url(); ?>dashboard/https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" />
+                    <video class="player cover" poster="<?= base_url(); ?>dashboard/img/product/large/product-2.webp" id="videoGuide">
+                        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" />
                     </video>
                 </div>
             </div>
