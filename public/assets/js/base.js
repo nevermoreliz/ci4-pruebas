@@ -26,13 +26,15 @@ $(document).ready(function () {
 				$.ajax({
 					url: (url.substring(0, 1) === '/' ? '' : '/') + url,
 					method: "GET",
-					data: { seccion: "mi-seccion" },
+					dataType: 'json',
 					success: function (response) {
 						// $("#mi-seccion").html(response.contenido);
 						content.html(response).fadeIn('slow');
 
 						if (response.success) {
 							content.html(response.html).fadeIn('slow');
+							var title = response.title;
+							document.querySelector('title').innerText = title;
 						}
 
 					},
